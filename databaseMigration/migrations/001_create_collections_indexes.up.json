@@ -1,0 +1,17 @@
+[
+  {
+    "create": "employee"
+  },
+  {
+    "createIndexes": "employee",
+    "indexes": [
+      {
+        "unique": true,
+        "key": {
+          "id": 1
+        },
+        "name": "unique index"
+      }
+    ]
+  }
+]

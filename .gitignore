@@ -1,0 +1,18 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.idea
+
+.env
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+*.cov
+*.html
+
+# Use go generate ./... to get fakes live
+**/fake_*.go
+
+/employee_register.iml
